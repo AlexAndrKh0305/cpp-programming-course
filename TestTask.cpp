@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <cmath>
 #include <windows.h>
 
@@ -30,3 +30,25 @@ int main() {
 	std::cout << square; // 45
 	return 0;
 }
+
+/*
+* Test 1
+*
+* 2 -2
+* 2 5
+* 5 9
+* 7 5
+* 7 -2
+* ------
+* 45
+*
+* Test 2
+*
+* -2 -3
+* -3 2
+* 2 5
+* 4 2
+* 3 -4
+* ------
+* 43.5
+*/
