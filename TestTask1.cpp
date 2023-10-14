@@ -33,13 +33,13 @@ int main() {
 
     switch (result) {
         case 1:
-            std::cout << "Корни уравнения x1 = " << x1 << ", x2 = " << x2 << std::endl;
+            std::cout << x1 << ", x2 = " << x2 << std::endl;
             break;
         case 0:
-            std::cout << "Корень уравнения один x1 = x2 = " << x1 << std::endl;
+            std::cout << "x1 = x2 = " << x1 << std::endl;
             break;
         case -1:
-            std::cout << "Корней уравнения нет" << std::endl;
+            std::cout << "No roots!" << std::endl;
             break;
     }
     return 0;
